@@ -1,0 +1,16 @@
+[package]
+name = "Proof-of-attendance"
+version = "1.0.0"
+authors = []
+
+[addresses]
+ProofOfAttendance = "0x42b28ed9d9b5eafc140d4f8dd3f5868176e3d77bcdea93de2aba2c2fdb41689d"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
